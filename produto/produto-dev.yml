@@ -64,4 +64,4 @@ management:
     health:
       show-details: always
 produto:
-  name: "1234"
+  name: "12345"
