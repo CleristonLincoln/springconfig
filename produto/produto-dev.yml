@@ -1,7 +1,7 @@
 spring:
   datasource:
     url: "{cipher}b9d84cabf541bcb8affa53bdd54cd4a0e89d66514efc0ce124dc054014a180e704e263ad36fa88760b6ce039125a795dfd4ebe47280c1ac3ca2d4246488bd5e1d7422a3f87bb157e91ba10aeef1d5047c150444d00299fc88d966c2ed845fccc9caff2fbc8993e3842894687c5312c444271a3fbac3c1832c6b5030d027d43a7dff84129d829386b1d9208f5290284b3"
-    username: admin
+    username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
     hikari:
