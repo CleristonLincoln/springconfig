@@ -1,18 +1,18 @@
 spring:
-#  datasource:
-#    url: jdbc:mysql://localhost:3306/pessoa?createDatabaseIfNotExists=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
-#
-#    username: root
-#    password: root
-#    driver-class-name: com.mysql.cj.jdbc.Driver
-#    hikari:
-#      pool-name: HikariPool-Vendas
-#      minimum-idle: 5
-#      maximum-pool-size: 20
-#      idle-timeout: 300000        # 5 minutos
-#      max-lifetime: 1200000       # 20 minutos
-#      connection-timeout: 20000   # 20 segundos
-#      auto-commit: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/pessoa?createDatabaseIfNotExists=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      pool-name: HikariPool-Vendas
+      minimum-idle: 5
+      maximum-pool-size: 20
+      idle-timeout: 300000        # 5 minutos
+      max-lifetime: 1200000       # 20 minutos
+      connection-timeout: 20000   # 20 segundos
+      auto-commit: true
   jpa:
     hibernate:
       ddl-auto: update           # Cuidado em produção, use 'validate' ou 'none'
